@@ -159,6 +159,12 @@
     .slot img[alt*="Detesia"] { 
       filter: invert(1) brightness(1.2); 
     }
+    
+    /* Make Saarland logo larger to match other logos */
+    .slot img[alt*="Saarland"] { 
+      max-width: 110%; 
+      max-height: 110%; 
+    }
     .cell-reveal{ opacity:0; transform:translateY(50px); }
     .cell-reveal.visible{ opacity:1; transform:translateY(0); transition:transform .5s ease-out, opacity .5s ease-out; }
     .fade-enter{ opacity:0; transform:translateY(10%); filter:blur(8px); }
