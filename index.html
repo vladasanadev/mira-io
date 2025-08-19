@@ -155,7 +155,8 @@
     .slot img[alt*="4am"], 
     .slot img[alt*="CISPA"],
     .slot img[alt*="DFKI"],
-    .slot img[alt*="Mirage Pitch Deck"] { 
+    .slot img[alt*="Mirage Pitch Deck"],
+    .slot img[alt*="Detesia"] { 
       filter: invert(1) brightness(1.2); 
     }
     .cell-reveal{ opacity:0; transform:translateY(50px); }
@@ -288,7 +289,7 @@
 						<!-- End mobile menu toggle button -->
 
 						<!-- Begin header button (hidden on small screens!) -->
-						<a href="#get-access" class="tt-btn tt-btn-secondary hide-from-xlg tt-magnetic-item">
+						<a href="https://askmira.io/" class="tt-btn tt-btn-secondary hide-from-xlg tt-magnetic-item" target="_blank" rel="noopener">
 							<span data-hover="Launch App">Launch App</span>
 						</a>
 						<!-- End header button -->
@@ -1053,7 +1054,7 @@
 									<!-- Begin big round button 
 									============================ -->
 									<div class="tt-big-round-ptn margin-top-30 margin-bottom-xlg-80 tt-anim-fadeinup">
-										<a href="#get-access" class="tt-big-round-ptn-holder tt-magnetic-item" id="get-access">
+										<a href="https://askmira.io/" class="tt-big-round-ptn-holder tt-magnetic-item" target="_blank" rel="noopener">
 											<div class="tt-big-round-ptn-inner">Launch<br>App</div>
 										</a>
 									</div>
@@ -1157,11 +1158,10 @@
       { name: 'Academic - Saarland',         id: 5,  file: 'Academic - Saarland.png' },
       { name: 'Mirage Pitch Deck',           id: 6,  file: 'Mirage Pitch Deck.webp' },
       { name: 'Web3 - 4am',                  id: 7,  file: 'Web3 - 4am.png' },
-      { name: 'Web3 - Arbus',                id: 8,  file: 'Web3 - Arbus.png' },
-      { name: 'Web3 - Me3',                  id: 9,  file: 'Web3 - Me3.png' },
+      { name: 'Web3 - Arbus',                id: 8,  file: 'Web3 - Arbus.png.png' },
+      { name: 'Web3 - Me3',                  id: 9,  file: 'Me3.png' },
       { name: 'Web3 - SheCodes',             id: 10, file: 'Web3 - SheCodes.png' },
-      { name: 'Web3 Amplifi New',            id: 11, file: 'Web3 Amplifi New.png' },
-      { name: 'Web3 Nabulines New',          id: 12, file: 'Web3 Nabulines New.png' },
+      { name: 'Web3 Nabulines New',          id: 11, file: 'Web3 Nabulines New.png' },
     ].map(l => ({ ...l, src: basePath + l.file }));
 
     // --- helpers (shuffle & distribute like in your TSX) ---
